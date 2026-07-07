@@ -95,7 +95,7 @@ PPO는 training episode return인 `AverageEpRet`를 표시했습니다. SAC와 T
 
 ```bash
 conda activate spinningup
-cd /home/hoeng/Downloads/study/spinningup
+cd ~/spinningup-study
 
 python -m spinup.run ppo \
   --hid "[32,32]" \
@@ -145,7 +145,7 @@ SAC는 continuous action 환경에서 사용합니다. `LunarLander-v2`는 discr
 
 ```bash
 conda activate spinningup
-cd /home/hoeng/Downloads/study/spinningup
+cd ~/spinningup-study
 
 python -m spinup.run sac \
   --hid "[32,32]" \
@@ -200,7 +200,7 @@ TD3도 continuous action 환경에서 사용합니다. SAC와 같은 `LunarLande
 
 ```bash
 conda activate spinningup
-cd /home/hoeng/Downloads/study/spinningup
+cd ~/spinningup-study
 
 python -m spinup.run td3 \
   --hid "[32,32]" \
