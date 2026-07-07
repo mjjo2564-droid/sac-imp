@@ -33,6 +33,12 @@ SAC와 TD3 실습에서 사용하는 continuous action 환경입니다. agent는
 
 이 repo는 오래된 Spinning Up 코드와 Python 3.6 기반 실습 환경을 맞춰둔 버전입니다. 아래 순서로 설치합니다.
 
+### Prerequisites (선행 설치)
+`mpi4py` 패키지 빌드를 위해 리눅스 시스템에 MPI 라이브러리가 반드시 설치되어 있어야 합니다. 콘다 환경을 만들기 전에 아래 명령어를 터미널에 실행해 주세요.
+
+```bash
+sudo apt update && sudo apt install libopenmpi-dev -y
+
 ```bash
 cd ~/spinningup-study
 
