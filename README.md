@@ -34,7 +34,7 @@ SAC와 TD3 실습에서 사용하는 continuous action 환경입니다. agent는
 이 repo는 오래된 Spinning Up 코드와 Python 3.6 기반 실습 환경을 맞춰둔 버전입니다. 아래 순서로 설치합니다.
 
 ```bash
-cd /home/hoeng/Downloads/study/spinningup
+cd ~/spinningup-study
 
 conda create -n spinningup python=3.6.13 -y
 conda activate spinningup
