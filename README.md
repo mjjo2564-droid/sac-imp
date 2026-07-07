@@ -1,4 +1,4 @@
-# spinningup-study
+
 # spinningup-study
 
 OpenAI Spinning Up 코드를 사용해서 강화학습 알고리즘 PPO, SAC, TD3를 직접 실행해보는 스터디용 저장소입니다. 이 README는 처음 실습하는 학생이 그대로 따라 할 수 있도록 설치, 실행 명령, 결과 로그 해석, 플롯 확인 방법을 정리했습니다.
