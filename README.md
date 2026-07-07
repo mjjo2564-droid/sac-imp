@@ -38,6 +38,7 @@ SAC와 TD3 실습에서 사용하는 continuous action 환경입니다. agent는
 
 ```bash
 sudo apt update && sudo apt install libopenmpi-dev -y
+```
 
 ```bash
 cd ~/spinningup-study
