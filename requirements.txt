@@ -1,0 +1,26 @@
+# Python 3.6.13 conda env used for:
+# python -m spinup.run ppo --hid "[32,32]" --env LunarLander-v2 --exp_name installtest --gamma 0.999
+#
+# Install with:
+# python -m pip install -r requirements.txt
+# python -m pip install -e . --no-deps
+
+gym[box2d]==0.21.0
+box2d-py==2.3.5
+pyglet==1.5.27
+importlib-resources==5.4.0
+
+numpy==1.19.5
+scipy==1.5.4
+torch==1.10.2
+tensorflow==2.6.2
+
+mpi4py==4.0.3
+cloudpickle==2.2.1
+joblib==1.1.1
+psutil==5.9.8
+tqdm==4.64.1
+
+pandas==1.1.5
+matplotlib==3.1.1
+seaborn==0.8.1
